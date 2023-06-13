@@ -11,7 +11,9 @@ Arquivos de configuracao:
 dbSqlConfig.js: efetua a conexao com o banco de dados
 send.js: efetua a conexao e envio de eventos
 
-Para rodar o projeto vá na pasta raiz, no mesmo nível do arquivo server.js e execute o comando: npm run dev
+Para rodar o projeto é necessario ter o Node instalado e o npm.
+Execute o comando npm install para obter as dependencias
+Vá na pasta raiz, no mesmo nível do arquivo server.js e execute o comando: npm run dev
 Após a aplicação rodar será possível efetuar requisicoes. Foram criadas, inicialmente, duas:
 1: GET: http://localhost:8080/produto/v1/stanley/:valor
 Rota de teste caso queira ver o valor consultado do banco de dados
